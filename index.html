@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ee554a58a8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Just+Another+Hand&family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Willow Studio</title>
+</head>
+<body>
+    <header>
+        <span class="fa-solid fa-bars menu-icon" onclick="menuFunc()"></span>
+        <div class="menu-container">
+            <nav id="menu" class="menu">
+                <a href="#" class="menu-items">About</a>
+                <a href="#" class="menu-items">Gallery</a>
+                <a href="#" class="menu-items">Shop</a>
+                <a href="#" class="menu-items">Blog</a>
+                <a href="#" class="menu-items">Contact</a>
+                <a href="#" class="menu-items">Buy Now</a>
+            </nav>
+        </div>
+        <!--            BIG SIZE NAVBAR         -->
+        <div class="brand-head">
+            <div class="big-size-navbar">
+                <nav class="left-nav">
+                    <a href="Dashboard!.html" class="nav-items left-items">ABOUT</a>
+                    <a href="#" class="nav-items left-items">GALLERY</a>
+                    <a href="#" class="nav-items left-items">SHOP</a>
+                </nav>
+                <img src="project imgs/original-logo.png" alt="company logo" class="logo">
+                <nav class="right-nav">
+                    <a href="#" class="nav-items right-items">BUY NOW</a>
+                    <a href="#" class="nav-items right-items">CONTACT</a>
+                    <a href="#" class="nav-items right-items">BLOG</a>
+                </nav>
+            </div>
+            
+            <h1>willow studio</h1>
+        </div>
+    </header>
+
+    <section class="img-box-flex img-box-flex1">
+        <img src="project imgs/image-3.jpg" alt="img1" class="flex-img">
+        <div class="box-overlap">
+            <div class="box ubox-1"></div>
+            <div class="top-box box">
+                <p>COACHING &middot; WORKSHOP</p>
+                <h3>for freelancers</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-story-div">
+        <h2>OUR STORY</h2>
+        <h3>WE'RE PASSIONATE ABOUT HELPING YOU GROW</h3>
+        <div class="story-flex">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cum deleniti ad nobis quis nemo laudantium recusandae eaque vitae, quae aut fugiat,
+                debitis quaerat maxime inventore. Soluta suscipit dignissimos laborum tenetur.
+            </p>
+            <p>
+                Tempore, ratione facilis non quae porro cum architecto voluptatum 
+                fugiat nihil modi voluptatem saepe totam fugit, ab, quia tenetur. 
+                Tempora eos, inventore placeat iure aliquam temporibus mollitia laudantium blanditiis totam.
+            </p>
+        </div>
+        <div id="hidden" class="hidden story-flex">
+            <p>
+                Cum accusamus eos eaque, perferendis optio quos nobis quod incidunt voluptates natus
+                molestias harum, beatae doloribus quasi ad iure pariatur numquam
+                temporibus vel repudiandae iste, sint ipsum rem? Laborum, dolores?
+            </p>
+            <p>
+                Quasi, fuga. Quo delectus exercitationem vero earum suscipit vel eum sed minus, 
+                architecto quasi, vitae impedit? Fugiat sapiente aliquam, 
+                dicta atque quisquam autem saepe iste accusamus ullam consectetur illo perferendis.
+            </p>
+        </div>
+        <button id="button" onclick="readMoreFunc()">READ MORE</button>
+    </section>
+
+    <section class="img-sec">
+        <img src="project imgs/midimage-2.png" alt="img2">
+    </section>
+
+    <section class="img-box-flex img-box-flex2">
+        <div class="box-overlap">
+            <div class="box ubox-2"></div>
+            <div class="top-box box">
+                <h3>from the shop</h3>
+                <p>JUMPSTART YOUR BIZ</p>
+            </div>
+        </div>
+        <img src="project imgs/header img.jpeg" alt="img1" class="flex-img">
+    </section>
+
+    <section class="services-container">
+        <div class="services">
+            <div class="circle circle-1">Coaching</div>
+            <h3>COACHING</h3>
+            <p>
+                Lorem ipsum sit amet consectetur.<br>
+                Velit quae libero  elit , earum totam <br>
+                Lorem in perspiciatis adipisicing?
+            </p>
+            <button>LEARN MORE</button>
+        </div>
+        <div class="services">
+            <div class="circle circle-2">Workshop</div>
+            <h3>WORKSHOP</h3>
+            <p>
+                Lorem ipsum sit amet consectetur.<br>
+                Velit quae libero  elit , earum totam <br>
+                Lorem in perspiciatis adipisicing?
+            </p>
+            <button>LEARN MORE</button>
+        </div>
+        <div class="services">
+            <div class="circle circle-3">Branding</div>
+            <h3>BRANDING</h3>
+            <p>
+                Lorem ipsum sit amet consectetur.<br>
+                Velit quae libero  elit , earum totam <br>
+                Lorem in perspiciatis adipisicing?
+            </p>
+            <button>LEARN MORE</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <img src="project imgs/original-logo.png" alt="logo" class="logo">
+        <h3>GET UPDATES &middot; SWEET FREEBIES</h3>
+        <p>Sign up to recieve exclusive resources &middot; news</p>
+        <form action="#" class="contact-form" netlify>
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            <button>SIGN UP</button>
+        </form>
+        <div class="contacts">
+            <a href="#footer" class="icon-container">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#footer" class="icon-container">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="#footer" class="icon-container">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#footer" class="icon-container">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+        <span>Copyright &copy; 2022 Willow Studio | site designed and handcrafted by Haycodes.</span>
+    </footer>
+</body>
+</html>
